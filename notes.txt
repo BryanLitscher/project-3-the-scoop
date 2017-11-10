@@ -1,0 +1,14 @@
+getorcreateuser request
+/users
+{ body: { username: 'hello' } }
+
+
+createNewComment
+/comments
+{ body:
+   { comment:
+      { body: 'this is a new comment',
+        articleId: 1,
+        username: 'bryan' } } }
+
+
